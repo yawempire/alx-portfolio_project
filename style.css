@@ -345,15 +345,15 @@ section{
     padding: 1rem 0;
 }
 
-.products .product-slider{
+.about .about-slider{
     padding: 1rem;
 }
 
-.products .product-slider:first-child{
+.about .about-slider:first-child{
     margin-bottom:2rem;
 }
 
-.products .product-slider .box{
+.about .about-slider .box{
     background: #fff;
     border-radius: .5rem;
     text-align: center;
@@ -361,32 +361,33 @@ section{
     outline-offset: -1rem;
     outline: var(--outline);
     box-shadow: var(--box-shadow);
-    transition: .2s linear;
+    transition: none;
+    text-transform: lowercase;
 }
 
-.products .product-slider .box:hover{
+.about .about-slider .box:hover{
     outline-offset: 0rem;
     outline: var(--outline-hover);
 }
 
-.products .product-slider .box img{
+.about .about-slider .box img{
     height: 20rem;
     /* width: 20rem;
     border-radius: 50%; */
 }
 
-.products .product-slider .box h3{
+.about .about-slider .box h3{
     font-size: 2.5rem;
     color: var(--black);
 }
 
-.products .product-slider .box .price{
+.about .about-slider .box .price{
     font-size: 2rem;
     color: var(--light-color);
     padding: .5rem 0;
 }
 
-.products .product-slider .box .stars i{
+.about .about-slider .box .stars i{
     font-size: 1.7rem;
     color: var(--orange);
     padding: .5rem 0;
