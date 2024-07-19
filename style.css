@@ -381,6 +381,12 @@ section{
     color: var(--black);
 }
 
+
+.about .product-slider .box p{
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
 .about .product-slider .box .price{
     font-size: 2rem;
     color: var(--light-color);
