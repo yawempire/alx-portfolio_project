@@ -371,13 +371,13 @@ section{
 }
 
 .about .product-slider .box img{
-    height: 20rem;
+    height: 30rem;
     /* width: 20rem;
     border-radius: 50%; */
 }
 
 .about .product-slider .box h3{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     color: var(--black);
 }
 
